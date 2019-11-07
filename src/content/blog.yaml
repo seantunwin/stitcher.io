@@ -1,11 +1,3 @@
-can-i-translate-your-blog:
-    date: 2019-11-07
-    title: Can I translate your blog?
-    content: src/content/blog/2019-11-07-can-i-translate-your-blog.md
-    next: laravel-beyond-crud
-    meta:
-        description: House keeping rules about translating my blog posts
-
 laravel-beyond-crud-05-managing-domains:
     date: 2019-11-10
     title: "05. Managing domains"
@@ -20,12 +12,20 @@ laravel-beyond-crud-05-managing-domains:
         - link: https://schlein.net/blog/stick-to-the-default
           title: Sebastian Schlein voices his concerns about the architecture I discuss in this blog series
 
+can-i-translate-your-blog:
+    date: 2019-11-07
+    title: Can I translate your blog?
+    content: src/content/blog/2019-11-07-can-i-translate-your-blog.md
+    next: laravel-beyond-crud
+    meta:
+        description: House keeping rules about translating my blog posts
+
 laravel-beyond-crud-04-models:
     date: 2019-11-03
     title: "04. Models"
     content: src/content/book/04-models.md
     book: true
-    next: laravel-beyond-crud
+    next: laravel-beyond-crud-05-managing-domains
     footnotes:
         - link: https://timacdonald.me/dedicated-eloquent-model-query-builders/
           title: Custom query builders in Laravel
